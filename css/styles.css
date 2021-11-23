@@ -123,3 +123,53 @@ figcaption {
     text-align: center;
     font-weight: bold;
 }
+
+/* Locations */
+.locations {
+    margin-top: 60px;
+    width: 100%;
+    max-height: 500px;
+    max-width: 1200px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1200px;
+    background-image: url("../img/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.location-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.location-title h2 {
+    background-color: transparent;
+}
+
+.location-container {
+    margin-top: 15px;
+    display: inline-flex;
+    justify-content: space-between;
+    column-gap: 40px;
+    width: 980px;
+    vertical-align: middle;
+    background-color: transparent;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    row-gap: 50px;
+    width: 300px;
+    text-align: center;
+    opacity: 1;
+}
