@@ -40,7 +40,7 @@ An up-to-date browser.
 Just for 'AAAAHHHH'-purposes. :)
 
 ## Project Status
-Project is: _working_
+Project is: _finished_
 
 
 <!--## Room for Improvement
