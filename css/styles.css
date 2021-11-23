@@ -20,6 +20,7 @@ header {
     border-bottom: 1px solid seashell;
     position: fixed;
     top: 0;
+    z-index: 1;
 }
 
 /* Navigation */
@@ -172,4 +173,26 @@ figcaption {
     width: 300px;
     text-align: center;
     opacity: 1;
+}
+
+/* The Tea Cozy */
+.tea-cozy {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-height: 200px;
+}
+
+.cozy-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+/* Footer */
+footer {
+    margin-left: 20px;
+    font-weight: bold;
 }
